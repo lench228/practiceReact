@@ -1,7 +1,9 @@
+import cl from "./contactUs.module.css"
+
 const ContactUs = () => {
     return (
         
-        <button className="">
+        <button className={cl.button}>
             Contact us
         </button>
 

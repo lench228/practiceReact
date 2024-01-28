@@ -1,0 +1,19 @@
+.button{
+    color: var(--Gray-gray-50, #FAFAFA);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px; /* 100% */
+
+    border-radius: 5px;
+    background: #3D63EA;
+
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+
+    padding: 19px 30px;
+
+    max-width: 175px;
+
+}

@@ -1,0 +1,11 @@
+.button{
+    border-radius: 5px;
+    background: linear-gradient(225deg, #6675F7 0%, #57007B 100%);
+    padding: 14px 25px;
+    color: var(--Gray-gray-50, #FAFAFA);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px; /* 100% */
+}

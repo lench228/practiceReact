@@ -1,0 +1,81 @@
+.container{
+    max-width: 1145px;
+    display: flex;
+
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: url('../../img/hero/hero.png') no-repeat;
+    background-position: 100%;
+    background-size: 614px 546px;
+
+    height: 548px;
+
+    align-items: center;
+}
+
+.container::after{
+    position:absolute;
+    display: block;
+    content: "";
+    width: 72px;
+    height: 72px;
+
+    background: url('../../img/decor/ellipse.svg');
+    top: 160%;
+    left: 35%;
+    z-index: 1;
+
+}
+
+.text__container{
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    
+
+
+}
+
+.title{
+    color: var(--Gray-gray-900, #1A202C);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 71px; /* 157.778% */
+}
+
+.pink{
+    background: linear-gradient(180deg, #DE4396 0%, rgba(13, 28, 159, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+}
+
+.bold{
+    color: var(--Gray-gray-900, #1A202C);
+
+    font-family: Inter;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 71px;
+}
+
+.description{
+    color: var(--Gray-gray-700, #4A5568);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px; /* 200% */
+
+    margin-bottom: 47px;
+}
